@@ -67,7 +67,7 @@ footer {
 
 nav {
   position: relative;
-  background: #F7F7F6;
+  background: #48494B;
   box-shadow: 5px 2px 20px 0 rgba(0, 0, 0, 0.1);
   display: flex; }
   nav > * {
@@ -120,7 +120,7 @@ nav {
   margin-bottom: 1rem;
   position: relative; }
   .site__title a {
-    color: white; }
+      color: white; }
     .site__title a:hover {
       text-decoration: none; }
   .site__title.site__title--separator:after {
@@ -175,7 +175,7 @@ nav {
       line-height: 1.5rem;
       font-family: 'Source Sans Pro', sans-serif;
       font-weight: 800;
-      color: white; }
+      color: black; }
   .site__navigation .site__navigation_items--right {
     background-color: #F79E77;
     padding-left: 5rem;
@@ -396,7 +396,9 @@ nav {
     bottom: 0;
     flex-direction: column;
     width: 60px;
-    transition: .5s; }
+    transition: .5s;
+    background-color:#D9DDDC;
+  }
 
   footer {
     padding-left: 110px;
